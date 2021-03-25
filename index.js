@@ -3,7 +3,7 @@ var cors = require('cors')
 var app = express()
 app.use(cors())
 app.get('/',function(req,res){
-  res.send('Hello World!')
+  res.send('Deployed!!')
 })
 var server = app.listen(process.env.PORT,function(){
 var port = server.address().port
